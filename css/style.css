@@ -1,0 +1,83 @@
+.nameinput {
+  display: flex;
+  flex-direction: column;
+}
+.name,
+.lastname {
+  height: 20px;
+}
+.lastname {
+  margin-top: 10px;
+}
+.radiobtn {
+  display: flex;
+}
+.female {
+  margin-left: 20px;
+}
+.lbs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.weight,
+.emailbox {
+  height: 20px;
+  margin-bottom: 20px;
+}
+.adress {
+  display: flex;
+  flex-direction: column;
+}
+.city {
+  margin-bottom: 10px;
+  height: 20px;
+}
+.email {
+  display: flex;
+  flex-direction: column;
+}
+.yes-no {
+  display: flex;
+}
+.no {
+  margin-left: 20px;
+}
+h4 {
+  font-size: 16px;
+  font-weight: 200;
+}
+.checkbox {
+  display: flex;
+}
+.pro {
+  margin-left: 15px;
+}
+.pro1 {
+  margin-right: 15px;
+}
+.textarea {
+  margin-top: 20px;
+}
+.button {
+  width: 150px;
+  height: 40px;
+  background-color: rgb(102, 102, 250);
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.button1 {
+  margin-top: 20px;
+}
+.bg {
+  width: 99%;
+  box-shadow: rgba(54, 85, 228, 0.911) 0px 5px 15px;
+}
+.section,
+.form {
+  padding: 20px 0 20px 20px;
+}
+.inp {
+  width: 95%;
+}

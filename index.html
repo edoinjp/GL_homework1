@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body class="bg">
+    <section class="section">
+      <h1>gym membership form</h1>
+      <img src="img/image04.jpeg" alt="gymimg" />
+      <p>
+        want to become member of our gym? than star by filling our form to
+        complete registration. we will contact you shortly to notify you about
+        your membership card.
+      </p>
+    </section>
+    <form class="form">
+      <div class="nameinput">
+        <h3>name</h3>
+        <label for="name"> </label>
+        <input
+          type="text"
+          class="name inp"
+          placeholder="first"
+          id="name"
+          name="name"
+        />
+        <label for="lastname"> </label>
+        <input
+          type="text"
+          class="lastname inp"
+          placeholder="last"
+          id="lastname"
+          name="lastname"
+        />
+      </div>
+      <div class="radio">
+        <h3>gender</h3>
+        <div class="radiobtn">
+          <input type="radio" id="male" name="gender" />
+          <label for="male">male</label>
+          <input class="female" type="radio" id="female" name="gender" />
+          <label for="female">female</label>
+        </div>
+      </div>
+      <div class="lbs">
+        <label for="weight">your curent weight</label>
+        <input class="weight inp" type="text" name="weight" id="weight" />
+        <label for="desired-weight">desired weight</label>
+        <input
+          class="weight inp"
+          type="text"
+          name="desired-weight"
+          id="desired-weight"
+        />
+        <label for="height ">height</label>
+        <input class="weight inp" type="text" name="height" id="height" />
+      </div>
+      <div class="adress">
+        <label for="home adress">home adress</label>
+        <input
+          class="city inp"
+          type="text"
+          name="home adress"
+          id="home adress"
+          placeholder="street adress"
+        />
+        <label for="city"></label>
+        <input
+          class="city inp"
+          type="text"
+          name="city"
+          id="city"
+          placeholder="city"
+        />
+        <label for="country"></label>
+        <input list="country" class="city inp" placeholder="country" />
+        <datalist id="country">
+          <option value="GEORGIA"></option>
+          <option value="JAPAN"></option>
+          <option value="AMERICA"></option>
+          <option value="RUSSIA"></option>
+          <option value="KOREA"></option>
+        </datalist>
+      </div>
+      <div class="email">
+        <label for="email">email</label>
+        <input class="emailbox inp" type="email" name="Email" id="email" />
+      </div>
+      <div class="email">
+        <label for="phone">phone</label>
+        <input type="tel" class="inp" name="phone" id="phone" />
+      </div>
+      <div>
+        <h4>have you ever been in gym before?</h4>
+        <div class="yes-no">
+          <input type="radio" id="yes" name="question" />
+          <label for="yes">yes</label>
+          <input class="no" type="radio" id="no" name="question" />
+          <label for="no">no</label>
+        </div>
+      </div>
+      <div>
+        <h4>membership type</h4>
+        <div class="checkbox">
+          <input type="checkbox" name="regular" id="regular" />
+          <label for="checkbox">regular</label>
+          <input class="pro" type="checkbox" name="pro" id="pro" />
+          <label class="pro1" for="pro">pro</label>
+          <input type="checkbox" name="vip" id="vip" />
+          <label for="pro">vip</label>
+        </div>
+        <div class="textarea">
+          <h4>add coment</h4>
+          <textarea
+            name="textarea"
+            id="text-area"
+            cols="180"
+            rows="10"
+          ></textarea>
+        </div>
+      </div>
+      <div class="button1">
+        <button class="button">Appy</button>
+      </div>
+    </form>
+  </body>
+</html>
